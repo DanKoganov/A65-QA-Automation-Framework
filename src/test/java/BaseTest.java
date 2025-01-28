@@ -39,6 +39,7 @@ public class BaseTest {
         wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         String url = "https://bbb.koel.app/";
         driver.get(url);
+        String url = "https://app.testpro.io/";
     }
 
 
