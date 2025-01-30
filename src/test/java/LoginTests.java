@@ -13,7 +13,7 @@ public class LoginTests extends BaseTest {
     public void loginEmptyEmailPassword()  {
 
         WebElement loginField = driver.findElement(By.cssSelector("[type='email']"));
-        loginField.sendKeys("planner@testpro.io");
+        loginField.sendKeys("TEst@testpro.io");
         WebElement passwordField = driver.findElement(By.cssSelector("[type='password']"));
         WebElement submitButton = driver.findElement(By.cssSelector("[type='submit']"));
         passwordField.sendKeys("6JooL8gp");
