@@ -18,6 +18,6 @@ public class LoginTests extends BaseTest {
         WebElement submitButton = driver.findElement(By.cssSelector("[type='submit']"));
         passwordField.sendKeys("6JooL8gp");
         submitButton.click();
-        Assert.assertEquals(driver.getCurrentUrl(),"https://qa.koel.app/");
+        Assert.assertEquals(driver.getCurrentUrl(),"https://testpro.io/");
     }
 }
